@@ -1,24 +1,18 @@
-# Lumina: E-Commerce Personal Shopping Assistant
+# The-Atelier
 
-Lumina is a premium, mobile-first e-commerce web application featuring a simulated AI shopping assistant, robust cart functionality, and a dedicated retailer dashboard for inventory management and demand forecasting.
+AI-Powered E-Commerce Shopping Assistant — a modern retail web app featuring a highly curated, quiet luxury "editorial" aesthetic. Built for hackathon demos, it showcases a minimalist storefront with smart product search, personalized recommendations, and a seamless shopping workflow.
 
 ## Features
 
-*   **AI Shopping Assistant**: An interactive chat interface that parses user intent (categories, budgets, and style tags) to recommend personalized products from the mock catalog.
-*   **Responsive Product Grid**: Beautifully styled product cards with mock data, dynamic stock alerts, and inline "Add to Cart" functionality.
-*   **Retailer Dashboard**: A dedicated view (toggled from the navbar) providing KPIs, an inventory management table, and a Chart.js powered Demand Forecast graph.
-*   **Cart & Checkout**: Slide-out cart panel to adjust quantities, see total prices in INR (₹), and simulate checkout.
-*   **Personalization Engine**: Automatically extracts styles and preferences from chat and persists them in `localStorage`.
-*   **Premium UI**: Sleek, modern design with dark/light mode toggle, smooth CSS animations, glassmorphism elements, and glowing aesthetic touches.
+*   **Minimalist UI**: Clean, light-themed, high-fashion storefront featuring high-contrast serif typography and sharp, borderless layouts.
+*   **Responsive Product Grid**: Beautifully styled product cards with editorial imagery.
+*   **Single Page Architecture**: The entire application is cleanly rendered from a single React entry point (`App.jsx`).
 
 ## Tech Stack
 
 *   **Frontend Framework**: React (scaffolded via Vite)
-*   **Styling**: Vanilla CSS (Variables, Flexbox/Grid, Animations)
+*   **Styling**: Vanilla CSS (Variables, Grid, Flexbox)
 *   **Icons**: Lucide React
-*   **Data Visualization**: Chart.js / react-chartjs-2
-*   **State Management**: React Context API & `localStorage`
-*   **Data**: Static JSON catalog
 
 ## Quick Setup Guide
 
@@ -38,12 +32,3 @@ Lumina is a premium, mobile-first e-commerce web application featuring a simulat
     ```bash
     npm run build
     ```
-
-## Usage
-
-*   **Chat**: Try typing phrases like *"I want some eco-friendly running shoes under 5000"* or *"Show me premium headphones"*.
-*   **Dashboard**: Click the Dashboard icon (left of the cart) in the top navigation bar to access the retailer view.
-*   **Dark Mode**: Click the Sun/Moon icon to toggle between light and dark themes.
-
----
-Built for Hackathon Demonstration.
